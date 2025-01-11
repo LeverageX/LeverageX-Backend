@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 8080;
 // CORS configuration to allow requests from multiple domains, including local dev
 const allowedOrigins = [
   // 'https://leveragex.onrender.com',  // Old domain
-  // 'https://leveragex.in',            // New domain
+  'https://leveragex.in',            // New domain
   'https://leveragex-frontend.onrender.com',
   'http://localhost:3000'            // Local development environment
 ];
